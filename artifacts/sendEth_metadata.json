@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.11+commit.d7f03943"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "receiveEth",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"sendMoneyExample.sol": "sendEth"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"sendMoneyExample.sol": {
+			"keccak256": "0x604fab73c80e47ddebbfde74a5b8750220ff03f2f4ccbcdf5bd5c8374e5703dd",
+			"urls": [
+				"bzz-raw://e59fc40a967611566238fa83ce2d1456ba6cba3e63fffb39e9bf543541b1009c",
+				"dweb:/ipfs/QmWxLXwjdWAutbLdMPJrSchdPen5bUbAjxMbuGi3PV415L"
+			]
+		}
+	},
+	"version": 1
+}
